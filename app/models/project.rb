@@ -7,6 +7,6 @@ class Project < ApplicationRecord
     has_and_belongs_to_many :experiences
 
     enum rails_version: { seven: 0, six: 1, five: 2 }
-    enum ruby_version: { threeDotOne: 0, threeDotZero: 1, twoDotSeven: 2 }
+    enum ruby_version: { threeDotOne: 0, threeDotZero: 1, twoDotSeven: 2, twoDotFive: 3 }
     enum front_end_framework: {vanilla: 0, bootstrap: 1, bulma: 2, postcss: 3, tailwind: 4, dart_sass: 5 }
 end
